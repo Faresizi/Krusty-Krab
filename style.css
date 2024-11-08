@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap');
+
+
+
+
+
+
+*{ 
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+nav{
+    background-color: #005493;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+    
+    .h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #80ef80;
+        font-family: "Rubik Wet Paint", serif;
+    }
+   .h2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #34495e;
+   font-family: "Modak", system-ui;
+   padding: 80px;
+   
+   
+}
+section{
+    display: flex;
+    justify-content: center;
+    color: #00b39b;
+    height: 50px;
+    font-weight: 300;
+}
+.img{
+    height: 280px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 20px;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: flex-start;
+    column-gap: 60px;
+    
+    
+    }
+
+.p1{
+    color: black;
+    padding: 70px;
+    font-family: "Sour Gummy", sans-serif;
+    background-color: aquamarine;
+    border-radius: 10px;
+    
+}
+.more{
+    display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+    font-family: "Vollkorn SC", serif;
+   
+   }
+   .end{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  height: 50px; 
+   background-color: aquamarine;
+  padding: 20px;
+}
